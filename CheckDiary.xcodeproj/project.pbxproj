@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB3CEB9921B27B5D00E27771 /* todayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3CEB9821B27B5D00E27771 /* todayViewController.swift */; };
 		CCD6709B21B266DA0089D1E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD6709A21B266DA0089D1E8 /* AppDelegate.swift */; };
 		CCD6709D21B266DA0089D1E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD6709C21B266DA0089D1E8 /* ViewController.swift */; };
 		CCD670A021B266DA0089D1E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD6709E21B266DA0089D1E8 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB3CEB9821B27B5D00E27771 /* todayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todayViewController.swift; sourceTree = "<group>"; };
 		CCD6709721B266D90089D1E8 /* CheckDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD6709A21B266DA0089D1E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCD6709C21B266DA0089D1E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				CCD6709A21B266DA0089D1E8 /* AppDelegate.swift */,
 				CCD6709C21B266DA0089D1E8 /* ViewController.swift */,
+				CB3CEB9821B27B5D00E27771 /* todayViewController.swift */,
 				CCD6709E21B266DA0089D1E8 /* Main.storyboard */,
 				CCD670A121B266DB0089D1E8 /* Assets.xcassets */,
 				CCD670A321B266DB0089D1E8 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD6709D21B266DA0089D1E8 /* ViewController.swift in Sources */,
+				CB3CEB9921B27B5D00E27771 /* todayViewController.swift in Sources */,
 				CCD6709B21B266DA0089D1E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
