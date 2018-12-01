@@ -8,7 +8,11 @@
 
 import UIKit
 
-class todayViewController: UIViewController {
+class todayViewController: UIViewController, UITextFieldDelegate {
+    
+    @IBOutlet var contentTextView: UITextView!
+    
+    var saveData : UserDefaults = UserDefaults.standard
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +23,10 @@ class todayViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func savememo() {
+        
     }
     
 

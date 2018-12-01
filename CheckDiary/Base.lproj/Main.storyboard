@@ -173,6 +173,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="ぜんぜん"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhM-93-I0k">
+                                <rect key="frame" x="320" y="37" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="savememo" destination="hl8-Id-ohx" eventType="touchUpInside" id="5Ut-13-u81"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oF2-0k-HxZ">
                                 <rect key="frame" x="190" y="37" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -182,10 +190,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="xZB-PQ-bIT"/>
                     </view>
+                    <connections>
+                        <outlet property="contentTextView" destination="FyN-6J-foK" id="DNE-Ia-EL3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8UC-Yl-nwd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2580" y="50.824587706146929"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Evc-tz-8OX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Tj-jK-l1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="48v-8r-Doi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7nz-ac-I7h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CVB-V3-jN2"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3249" y="45"/>
         </scene>
     </scenes>
 </document>
