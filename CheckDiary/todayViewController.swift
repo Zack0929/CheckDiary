@@ -16,6 +16,9 @@ class todayViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        contentTextView.text = saveData.object(forKey:  "content")as? String
+      
 
         // Do any additional setup after loading the view.
     }
@@ -27,8 +30,14 @@ class todayViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func savememo() {
         //user defultsに書き込み
-        saveData.set (contentTextView.text, fotKey: "title")
+        saveData.set(contentTextView.text, forKey: "title")
         
+    }
+    
+    // 保存後に自動で戻る
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 
