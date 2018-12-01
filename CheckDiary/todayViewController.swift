@@ -26,6 +26,8 @@ class todayViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func savememo() {
+        //user defultsに書き込み
+        saveData.set (contentTextView.text, fotKey: "title")
         
     }
     
