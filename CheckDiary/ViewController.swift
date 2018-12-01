@@ -11,8 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     //差分の追加
-    
-    // 差分りっさ
 
     override func viewDidLoad() {
         super.viewDidLoad()
